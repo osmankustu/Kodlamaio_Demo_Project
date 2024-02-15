@@ -1,0 +1,6 @@
+@KodlamaIo.WebApi_HostAddress = http://localhost:5117
+
+GET {{KodlamaIo.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

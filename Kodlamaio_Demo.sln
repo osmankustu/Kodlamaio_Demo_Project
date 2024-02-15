@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F22C0950-68DE-405C-AB73-77C043D7814D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodlamaIo.Entities", "src\KodlamaIo.Entities\KodlamaIo.Entities.csproj", "{24DB7534-1DE6-4CFE-800C-A554D228916C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodlamaIo.Core", "src\KodlamaIo.Core\KodlamaIo.Core.csproj", "{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodlamaIo.Business", "src\KodlamaIo.Business\KodlamaIo.Business.csproj", "{7643EE04-473E-48C8-94C8-D2AFDFF74A51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodlamaIo.DataAccess", "src\KodlamaIo.DataAccess\KodlamaIo.DataAccess.csproj", "{F6D5EF07-5111-463E-83FF-2F242FFEA2AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KodlamaIo.WebApi", "src\KodlamaIo.WebApi\KodlamaIo.WebApi.csproj", "{21B94212-BCC9-4DDD-8A72-9E389FCB00ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24DB7534-1DE6-4CFE-800C-A554D228916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24DB7534-1DE6-4CFE-800C-A554D228916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24DB7534-1DE6-4CFE-800C-A554D228916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24DB7534-1DE6-4CFE-800C-A554D228916C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7643EE04-473E-48C8-94C8-D2AFDFF74A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7643EE04-473E-48C8-94C8-D2AFDFF74A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7643EE04-473E-48C8-94C8-D2AFDFF74A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7643EE04-473E-48C8-94C8-D2AFDFF74A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6D5EF07-5111-463E-83FF-2F242FFEA2AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6D5EF07-5111-463E-83FF-2F242FFEA2AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6D5EF07-5111-463E-83FF-2F242FFEA2AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6D5EF07-5111-463E-83FF-2F242FFEA2AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21B94212-BCC9-4DDD-8A72-9E389FCB00ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B94212-BCC9-4DDD-8A72-9E389FCB00ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B94212-BCC9-4DDD-8A72-9E389FCB00ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B94212-BCC9-4DDD-8A72-9E389FCB00ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{24DB7534-1DE6-4CFE-800C-A554D228916C} = {393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}
+		{4CAABC99-16A4-4138-A9E7-C4DB7F7E8952} = {393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}
+		{7643EE04-473E-48C8-94C8-D2AFDFF74A51} = {393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}
+		{F6D5EF07-5111-463E-83FF-2F242FFEA2AA} = {393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}
+		{21B94212-BCC9-4DDD-8A72-9E389FCB00ED} = {393C3DE3-BCD5-46EE-B4D2-FD1F616F27A7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E597BA41-1ED6-4A25-A9C7-8B51092227E2}
+	EndGlobalSection
+EndGlobal
